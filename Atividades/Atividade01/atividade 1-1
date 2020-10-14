@@ -10,7 +10,7 @@ int main(void){
 	  
 	  p = 2 * 3.1416 * r;
 	  
-	  printf("Perimetro: %.2f\n", p);
+	  printf("Perimetro: %f\n", p);
 	  
 	  
 	  

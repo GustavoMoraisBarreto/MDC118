@@ -1,0 +1,18 @@
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	float gb;
+	float b;
+	
+	printf("informe o valor em GigaBytes: ");
+	  scanf("%f,", &gb);
+	  
+	  b = 1024*1024*1024*gb;
+	  
+	  printf("Valor em bytes: %f\n", b);
+	  
+	  
+	  
+	  return 0;
+}
