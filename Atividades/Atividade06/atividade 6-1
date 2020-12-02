@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int dia, mes, ano;
+    printf("Digite uma data dia/mes/ano: ");
+    scanf("%d/%d/%d", &dia, &mes, &ano);
+    printf("a data em BR :  %d/%d/%d\n", dia, mes, ano);
+    printf("a data em US :  %d/%d/%d\n", mes, dia, ano);
+    return 0;
+}
+    
+    
